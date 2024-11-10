@@ -4,6 +4,12 @@ This project is an AI-based diagnostic system for detecting Lumpy Skin Disease i
 
 ---
 
+## Project Screenshot
+
+![Project Screenshot](screenshots\Screenshot(69).png)
+
+---
+
 ## Project Structure (Inside 'app' Directory)
 
 - **app.py** - Main Gradio app script for the user interface.
