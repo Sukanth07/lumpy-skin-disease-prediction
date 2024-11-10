@@ -6,7 +6,7 @@ This project is an AI-based diagnostic system for detecting Lumpy Skin Disease i
 
 ## Project Screenshot
 
-![Project Screenshot](screenshots\Screenshot(69).png)
+![Project Screenshot](screenshots/Screenshot(69).png)
 
 ---
 
