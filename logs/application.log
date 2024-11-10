@@ -1,0 +1,76 @@
+2024-11-11 00:20:59,314 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-11-11 00:20:59,352 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-11-11 00:20:59,753 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 00:20:59,954 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 00:21:00,568 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2024-11-11 00:23:01,751 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 00:23:17,981 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 00:23:52,341 - __main__ - INFO - Starting prediction process...
+2024-11-11 00:23:53,356 - predict - INFO - DataPreprocessor initialized with scaler.
+2024-11-11 00:23:53,801 - predict - INFO - ML model loaded successfully.
+2024-11-11 00:23:57,592 - predict - INFO - CNN model loaded successfully.
+2024-11-11 00:23:57,597 - llm - INFO - LLM model initialized successfully.
+2024-11-11 00:24:06,932 - llm - INFO - LLM inference successful.
+2024-11-11 00:24:06,952 - __main__ - INFO - Prediction completed successfully.
+2024-11-11 00:24:43,835 - __main__ - INFO - Starting prediction process...
+2024-11-11 00:24:43,835 - predict - INFO - DataPreprocessor initialized with scaler.
+2024-11-11 00:24:44,037 - predict - INFO - ML model loaded successfully.
+2024-11-11 00:24:46,621 - predict - INFO - CNN model loaded successfully.
+2024-11-11 00:24:46,625 - llm - INFO - LLM model initialized successfully.
+2024-11-11 00:24:52,542 - llm - INFO - LLM inference successful.
+2024-11-11 00:24:52,544 - __main__ - INFO - Prediction completed successfully.
+2024-11-11 00:24:57,148 - __main__ - INFO - Starting prediction process...
+2024-11-11 00:24:57,153 - predict - INFO - DataPreprocessor initialized with scaler.
+2024-11-11 00:24:57,317 - predict - INFO - ML model loaded successfully.
+2024-11-11 00:25:00,057 - predict - INFO - CNN model loaded successfully.
+2024-11-11 00:25:03,069 - llm - INFO - LLM model initialized successfully.
+2024-11-11 00:25:09,376 - llm - INFO - LLM inference successful.
+2024-11-11 00:25:09,376 - __main__ - INFO - Prediction completed successfully.
+2024-11-11 00:27:09,792 - __main__ - INFO - Starting prediction process...
+2024-11-11 00:27:09,792 - predict - INFO - DataPreprocessor initialized with scaler.
+2024-11-11 00:27:09,920 - predict - INFO - ML model loaded successfully.
+2024-11-11 00:27:12,091 - predict - INFO - CNN model loaded successfully.
+2024-11-11 00:27:12,091 - llm - INFO - LLM model initialized successfully.
+2024-11-11 00:27:18,411 - llm - INFO - LLM inference successful.
+2024-11-11 00:27:18,411 - __main__ - INFO - Prediction completed successfully.
+2024-11-11 00:27:32,115 - __main__ - INFO - Starting prediction process...
+2024-11-11 00:27:32,115 - predict - INFO - DataPreprocessor initialized with scaler.
+2024-11-11 00:27:32,224 - predict - INFO - ML model loaded successfully.
+2024-11-11 00:27:34,163 - predict - INFO - CNN model loaded successfully.
+2024-11-11 00:27:34,163 - llm - INFO - LLM model initialized successfully.
+2024-11-11 00:27:35,273 - tensorflow - WARNING - 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002099AA9C940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-11-11 00:27:40,322 - llm - INFO - LLM inference successful.
+2024-11-11 00:27:40,322 - __main__ - INFO - Prediction completed successfully.
+2024-11-11 03:38:28,721 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:38:37,133 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:39:15,768 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:39:17,263 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:42:46,024 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:43:46,759 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:44:09,936 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:44:26,122 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:44:41,685 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:45:34,223 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:45:42,270 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:45:50,686 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:45:59,347 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:46:14,560 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:46:31,426 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:46:39,624 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:49:45,503 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:50:18,679 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:50:20,120 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:50:38,966 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:53:26,924 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-11-11 03:54:38,056 - __main__ - INFO - Starting prediction process...
+2024-11-11 03:54:38,073 - predict - INFO - DataPreprocessor initialized with scaler.
+2024-11-11 03:54:38,383 - predict - INFO - ML model loaded successfully.
+2024-11-11 03:54:40,894 - predict - INFO - CNN model loaded successfully.
+2024-11-11 03:54:40,898 - llm - INFO - LLM model initialized successfully.
+2024-11-11 03:54:40,900 - predict - INFO - Data preprocessing completed successfully.
+2024-11-11 03:54:40,919 - predict - INFO - ML model prediction completed successfully.
+2024-11-11 03:54:42,480 - tensorflow - WARNING - 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000020999A72290> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-11-11 03:54:42,493 - predict - INFO - CNN model prediction completed successfully.
+2024-11-11 03:54:47,111 - llm - INFO - LLM inference successful.
+2024-11-11 03:54:47,111 - predict - INFO - LLM report generated successfully.
+2024-11-11 03:54:47,113 - __main__ - INFO - Prediction completed successfully.
