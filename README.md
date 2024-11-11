@@ -40,7 +40,7 @@ This project is an AI-based diagnostic system for detecting Lumpy Skin Disease i
 2. **Set Up Virtual Environment**:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # For Linux/macOS
+    source venv/bin/activate  # For Linux
     .\venv\Scripts\activate  # For Windows
     ```
 
@@ -49,7 +49,14 @@ This project is an AI-based diagnostic system for detecting Lumpy Skin Disease i
     pip install -r requirements.txt
     ```
 
-4. **Environment Variables**:
+4. **Protobuf Builder File Config**:
+    Since there is dependency issue with protobuf, we will manually copy and paste the latest builder file in library path.
+    ```bash
+    cp "./builder.py" "./venv/Lib/site-packages/google/protobuf/internel/"  # For Linux
+    copy ".\\builder.py" ".\\venv\Lib\\site-packages\\google\\protobuf\\internal\\"    # For Windows
+    ```
+
+5. **Environment Variables**:
     Create a `.env` file with your API keys and other sensitive data:
     ```
     GEMINI_API_KEY=your-gemini-api-key

@@ -1,3 +1,16 @@
+import subprocess
+from config import *
+
+def copy_builder():
+    try:
+        source_path = f"{BASE_DIR}\\builder.py"
+        target_path = f"{BASE_DIR}\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\"
+
+        subprocess.run(["copy", source_path, target_path], shell=True, check=True)
+    
+    except Exception as e:
+        return f"An error occurred: {e}"
+
 css="""
     .container { 
         max-width: 90%; 

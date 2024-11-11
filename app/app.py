@@ -7,6 +7,9 @@ from logger import get_logger
 logger = get_logger(__name__)
 warnings.filterwarnings("ignore")
 
+utils.copy_builder()\
+
+
 def show_processing_text():
     return gr.update(visible=True), gr.update(visible=False)
 
