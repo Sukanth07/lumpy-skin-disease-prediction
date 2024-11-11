@@ -7,7 +7,7 @@ from logger import get_logger
 logger = get_logger(__name__)
 warnings.filterwarnings("ignore")
 
-utils.copy_builder()\
+utils.copy_builder()
 
 
 def show_processing_text():

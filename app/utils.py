@@ -1,13 +1,12 @@
 import subprocess
+import site
 from config import *
 
 def copy_builder():
     try:
-        source_path = f"{BASE_DIR}\\builder.py"
-        target_path = f"{BASE_DIR}\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\"
-
-        subprocess.run(["copy", source_path, target_path], shell=True, check=True)
-    
+        site_packages_path = site.getsitepackages()[0]
+        destination_path = os.path.join(site_packages_path, 'google/protobuf/internal/')
+        subprocess.run(["cp", "./builder.py", destination_path], shell=True, check=True)
     except Exception as e:
         return f"An error occurred: {e}"
 
