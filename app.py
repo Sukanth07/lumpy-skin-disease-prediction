@@ -1,14 +1,11 @@
 import gradio as gr
-import utils
-from predict import prediction
+from src import utils
+from src.predict import prediction
+from src.logger import get_logger
 import warnings
-from logger import get_logger
 
 logger = get_logger(__name__)
 warnings.filterwarnings("ignore")
-
-utils.copy_builder()
-
 
 def show_processing_text():
     return gr.update(visible=True), gr.update(visible=False)
@@ -74,4 +71,4 @@ with gr.Blocks(css=utils.css, theme=gr.themes.Ocean(primary_hue=gr.themes.colors
         queue=True
     )
 
-demo.launch(share=True)
+demo.launch()

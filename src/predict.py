@@ -1,10 +1,10 @@
 import joblib
 import numpy as np
 import tensorflow as tf
-from llm import LLM
-from config import *
-from exception import log_exception, ModelLoadingError, PreprocessingError, PredictionError
-from logger import get_logger
+from src.llm import LLM
+from src.config import *
+from src.exception import log_exception, ModelLoadingError, PreprocessingError, PredictionError
+from src.logger import get_logger
 
 logger = get_logger(__name__)
 

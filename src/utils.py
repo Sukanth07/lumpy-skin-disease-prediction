@@ -1,14 +1,6 @@
 import subprocess
 import site
-from config import *
-
-def copy_builder():
-    try:
-        site_packages_path = site.getsitepackages()[0]
-        destination_path = os.path.join(site_packages_path, 'google/protobuf/internal/')
-        subprocess.run(["cp", "./builder.py", destination_path], shell=True, check=True)
-    except Exception as e:
-        return f"An error occurred: {e}"
+from src.config import *
 
 css="""
     .container { 
